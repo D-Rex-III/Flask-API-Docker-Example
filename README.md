@@ -2,7 +2,7 @@
 A Flask API designed as an example to test endpoints with Postman. A Dockerfile is included to create a docker image and run locally.
 
 ## Prerequisites
-You'll need [Postman](https://www.postman.com/downloads/) [Docker](https://docs.docker.com/get-docker/), Flask, and flask_cors installed.
+You'll need [Postman](https://www.postman.com/downloads/), [Docker](https://docs.docker.com/get-docker/), Flask, and flask_cors installed.
 ```
 pip install Flask
 pip install Flask-Cors
