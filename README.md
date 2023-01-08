@@ -17,7 +17,9 @@ docker build -t flask-api-docker-example .
 docker run -p 5000:5000 flask-api-docker-example
 ```
 Then run your tests against the endpoints below.
+
 ---
+
 If you want to start the server with python only.
 ```
 cd app/
