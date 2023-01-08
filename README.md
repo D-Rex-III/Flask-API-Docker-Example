@@ -14,7 +14,7 @@ cd Flask-API-Docker-Example
 If you would like to build a docker image and run locally.
 ```
 docker build -t flask-api-docker-example .
-docker run -p 5000:5000 flask-api-docker-example
+docker run -dp 5000:5000 flask-api-docker-example
 ```
 Then run your tests against the endpoints below.
 
