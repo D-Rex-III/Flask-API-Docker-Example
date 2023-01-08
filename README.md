@@ -1,7 +1,30 @@
 # Flask-API-Docker-Example
 A Flask API designed as an example to test endpoints with Postman. A Dockerfile is included to create a docker image and run locally.
 
-## url paths
+## Prerequisites
+You'll need [Postman](https://www.postman.com/downloads/) [Docker](https://docs.docker.com/get-docker/), Flask, and flask_cors installed.
+```
+pip install Flask
+pip install Flask-Cors
+git clone https://github.com/D-Rex-III/Flask-API-Docker-Example
+cd Flask-API-Docker-Example
+```
+
+## Run App
+If you would like to build a docker image and run locally.
+```
+docker build -t flask-api-docker-example .
+docker run -p 5000:5000 flask-api-docker-example
+```
+Then run your tests against the endpoints below.
+---
+If you want to start the server with python only.
+```
+cd app/
+python app.py
+```
+
+## Endpoints
 | # | Endpoint                                         | HTTP Method | Description                                  | Database Function    |
 |---|--------------------------------------------------|-------------|----------------------------------------------|----------------------|
 | 1 | http://localhost:5000/                           | null        | Simple homepath only containing 'hello'      | none                 |
