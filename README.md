@@ -25,6 +25,7 @@ If you want to start the server with python only.
 cd app/
 python app.py
 ```
+Then run your tests against the endpoints below.
 
 ## Endpoints
 | # | Endpoint                                         | HTTP Method | Description                                  | Database Function    |
